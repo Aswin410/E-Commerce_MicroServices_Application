@@ -8,7 +8,7 @@ const Product = require("./product");
 //Connect to db
 mongoose
   .connect(
-    "mongodb+srv://prasad:prasad@prasad.xg342ez.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://aswin:aswin@cluster0.zbkkvvb.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Connected to DB");
